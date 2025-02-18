@@ -15,8 +15,8 @@
 ```
 node backdoor.js
 nohup node backdoor.js &
-another comand 
 
+another comand 
 npm install -g pm2
 pm2 start nodedoor.js.js --name sakarepmu
 pm2 save
