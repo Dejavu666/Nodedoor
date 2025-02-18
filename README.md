@@ -26,5 +26,7 @@ pm2 startup
 
 telegram command Exe
 /cmd ls -lah /var/www/html or ./etc
+Multi target
+/cmd kancil1 ls -lah
 
 ```
