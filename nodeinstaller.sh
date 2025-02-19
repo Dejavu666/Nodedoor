@@ -3,15 +3,20 @@
 # Update sistem
 sudo apt update && sudo apt upgrade -y
 
-# Instal Node.js dan npm
-sudo apt install -y nodejs npm
+# Hapus Node.js versi lama jika ada
+sudo apt remove -y nodejs npm
+sudo apt autoremove -y
+
+# Instal Node.js versi terbaru
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs
 
 # Buat direktori server
 mkdir -p /opt/myserver
 cd /opt/myserver
 
 # Buat file server.js
-cat <<EOF > server.js
+cat > server.js << 'EOF'
 const express = require('express');
 const app = express();
 const port = 3000;
